@@ -6,4 +6,6 @@ it was made by following a tutorioal showcasing the power of styling with Bootst
 
 Many thanks and happy coding!
 
+Link to the site be here... https://tenbonks.github.io/whiskey-drop/.
+
 :)
