@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,48 +8,192 @@
     <title>Whiskey Drop ¦ Taste a new whiskey every month </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
+
 <body>
-   <!-- callout --> 
-   <article class="container">
-      <section class="callout">
-       <h1>The finest whiskey delivered to your doorstep.</h1>
-       <p>Sign up today to start receiving the world's best whickey, the first one is free!</p>
-      </section> 
-      <!-- /.callout -->
-      <hr>
-      
-      <!-- Quotes -->
-      <section class="quotes">
-          <h2 class="text-uppercase">Quotes</h2>
-          
-          <div class="quote">
-              <p>I've been introduced to more than 10 great international whiskeys I did not know about</p>
-              <p>-Jane Doe</p>
-              </div>
-              
-            <div class="quote">
-                <p>I haven't been sober for months!</p>
-                <p>-John Smith</p>
-            </div>  
-      </section>
-      <!-- /.Quotes -->
-      
-      <!-- features -->
-      <section class="feature">
-          <div class="feature">
-              <h3>Feature 1</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, ad!</p>
-          </div>
-          
-          <div class="feature">
-              <h3>Feature 2</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, perspiciatis.</p>
-          </div>
-      </section>
-      <!-- /.features -->
-     
-   </article>
+    <!-- nav -->
+    <nav class="navbar navbar-light bg-light navbar-expand-sm fixed-top">
+        <a href="" class="navbar-brand">
+            Whiskey Drop</a>
+        <ul class="navbar-nav mr-auto ">
+            <li class="active nav-item mr-2"><a class="nav-link" href="/=">Home</a></li>
+            <li class="active nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
+            <li class="active nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/about">Sign in / Sign up</a></li>
+        </ul>
+        <div class="d-none d-md-block">
+            <p class="navbar-text my-auto mr-2"><i>Great whiskey delivered to your door!</i></p>
+            <a href="/login">Sign in / Sign up</a>
+        </div>
+
+    </nav>
+    <!-- /.nav -->
+
+    <article class="container mt-3">
+
+        <!-- Sale -->
+
+        <div class="row d-none d-sm-block">
+            <div class="col-12">
+                <div class="alert alert-warning"><strong>Sale Now On!</strong> We've got a sale on. Get a 12-month subscription for the price of 6! <a href="">See here for details!
+                </a></div>
+            </div>
+        </div>
+
+        <!-- /.sale -->
+
+        <!-- callout -->
+
+        <div class="row">
+            <div class="col-12">
+                <section class="callout jumbotron text-center">
+                    <h1>The finest whiskeys,<br> delivered to your doorstep.</h1>
+
+                    <p class="lead">Sign up today to start receiving the world's best whiskey, <s class="d-none d-sm-inline">£19.99</s>
+                        <span class="d-inline d-sm-none"><br></span>
+                        <strong><mark> the first one is free!</mark></strong></p>
+                    <button class="btn btn-success btn-lg">Sign Up!</button>
+                    <p class="text-muted"><small>You must be 18 to sing up for our service, please drink responsibly.</small></p>
+                </section>
+            </div>
+        </div>
+
+        <!-- /.callout -->
+
+        <hr>
+
+        <!-- Quotes -->
+
+        <section class="quotes">
+            <div class="row">
+                <div class="col-12 my-5">
+                    <h2 class="text-uppercase">Quotes:</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="media">
+                        <div class="d-none d-sm-block">
+                            <img src="images/girl-image-bootstrap.png" class="rounded-circle mr-3" height=100 width=100></img>
+                        </div>
+                        <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p>I've been introduced to more than 10 great international whiskeys I did not know about</p>
+                                <p>-Jane Doe</p>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="media">
+                        <div class="d-none d-sm-block">
+                            <img src="images/guy-image-bootstrap.png" class="rounded-circle mr-3" height=100 width=100></img>
+                        </div>
+                        <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p>I haven't been sober for months!</p>
+                                <p>-John Smith</p>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- /.Quotes -->
+
+        <hr>
+
+        <!-- features -->
+
+        <section class="feature">
+            <div class="row">
+                <div class="col-12 my-5">
+                    <h2 class="text-uppercase">Features:</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3><i class="fas fa-gift d-none d-sm-block"></i> Feature 1 <span class="badge badge-success">New!</span></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, ad!</p>
+                        <p><a class="btn btn-sm btn-light" href="=">Read more</a></p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3><i class="fas fa-credit-card d-none d-sm-block"></i> Feature 2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, perspiciatis.</p>
+                        <p><a class="btn btn-sm btn-light" href="=">Read more</a></p>
+                    </div>
+                </div>
+                <div class="col-12 d-md-none d-lg-block col-lg-4">
+                    <div class="feature">
+                        <h3><i class="fas fa-times-circle d-none d-sm-block"></i> Feature 3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur officia ipsam, sed nihil quasi dolorum!</p>
+                        <p><a class="btn btn-sm btn-light" href="=">Read more</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- /.features -->
+
+        <hr>
+
+        <!-- table -->
+
+        <section class="table">
+            <div class="col-12">
+                <h2 class="text-uppercase">Monthly Favorites</h2>
+
+                <div class="table">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Name</th>
+
+                                <th scope="col">Origin</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Rampur</td>
+                                <td>India</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Kavalan</td>
+                                <td>Japan</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Hbiki</td>
+                                <td>Japan</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Tycho's star</td>
+                                <td>Sweden</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">5</th>
+                                <td>Cape Mountain</td>
+                                <td>South African</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- /.table -->
+
+        <hjr></hjr>
+    </article>
 </body>
+
 </html>
